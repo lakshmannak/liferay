@@ -1,0 +1,4 @@
+Bundle-Name: Information-App
+Bundle-SymbolicName: Information.App
+Bundle-Version: 1.0.0
+Export-Package: Information.App.constants

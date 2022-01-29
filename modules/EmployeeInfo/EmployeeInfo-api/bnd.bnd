@@ -1,0 +1,10 @@
+Bundle-Name: EmployeeInfo-api
+Bundle-SymbolicName: com.emp.test.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.emp.test.exception,\
+	com.emp.test.model,\
+	com.emp.test.service,\
+	com.emp.test.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../EmployeeInfo-service/service.xml
